@@ -52,6 +52,19 @@ namespace RepositoryLayer.Service
             }
         }
 
+        public bool EditEmployeeDetails(string id, Employee employee)
+        {
+            try
+            {
+                this._Employee.ReplaceOne(employee => employee.Id == id, employee);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         public List<Employee> GetEmployeeDetails()
         {
             return this._Employee.Find(employee => true).ToList();
