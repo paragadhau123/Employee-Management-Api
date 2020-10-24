@@ -26,6 +26,62 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj",
+        "projectName": "CommonLayer",
+        "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -81,6 +137,9 @@
             "projectReferences": {
               "D:\\parag\\DotNet\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj": {
                 "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj"
               }
             }
           }
@@ -107,6 +166,68 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectName": "RepositoryLayer",
+        "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
