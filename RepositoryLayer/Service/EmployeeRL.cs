@@ -18,6 +18,27 @@ namespace RepositoryLayer.Service
             this._Employee = database.GetCollection<Employee>(settings.EmployeeCollectionName);
         }
 
+        public Employee AddEmployee(EmployeeModel employee)
+        {
+            try
+            {
+                Employee newEmployee = new Employee()
+                {
+                    EmployeeFirstName = employee.EmployeeFirstName,
+                    EmployeeLastName = employee.EmployeeLastName,
+                    Email = employee.Email,
+                    Password = employee.Password,
+                    PhoneNumber = employee.PhoneNumber,
+                };
+                this._Employee.InsertOne(newEmployee);
+                return newEmployee;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
         public List<Employee> GetEmployeeDetails()
         {
             return this._Employee.Find(employee => true).ToList();

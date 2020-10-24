@@ -17,6 +17,12 @@ namespace BusinessLayer.Service
         {
             this.repositoryLayer = repositoryLayer;
         }
+
+        public Employee AddEmployee(EmployeeModel employee)
+        {
+            return this.repositoryLayer.AddEmployee(employee);
+        }
+
         List<Employee> IEmployeeBL.GetEmployeeDetails()
         {
            return this.repositoryLayer.GetEmployeeDetails();

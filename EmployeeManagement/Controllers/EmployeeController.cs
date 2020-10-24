@@ -1,6 +1,8 @@
 ﻿using System;
 using BusinessLayer.Interface;
+using CommonLayer.Model;
 using Microsoft.AspNetCore.Mvc;
+using RepositoryLayer;
 
 namespace EmployeeManagement.Controllers
 {
@@ -38,12 +40,12 @@ namespace EmployeeManagement.Controllers
             }
         }
 
-       /* [HttpPost]
-        public IActionResult AddEmployeeDetails(EmployeeDetails employee)
+        [HttpPost]
+        public IActionResult AddEmployeeDetails(EmployeeModel employee)
         {
             try
             {
-                bool result = this.employeeBL.AddEmployee(employee);
+                Employee result = this.employeeBL.AddEmployee(employee);
 
                 if (!result.Equals(false))
                 {
@@ -58,6 +60,6 @@ namespace EmployeeManagement.Controllers
             {
                 return this.BadRequest(new { sucess = false, message = e.Message });
             }
-        }*/
+        }
     }
 }

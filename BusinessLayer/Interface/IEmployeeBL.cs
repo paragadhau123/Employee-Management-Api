@@ -9,5 +9,7 @@ namespace BusinessLayer.Interface
     public interface IEmployeeBL
     {
         List<Employee> GetEmployeeDetails();
+
+        Employee AddEmployee(EmployeeModel employee);
     }
 }

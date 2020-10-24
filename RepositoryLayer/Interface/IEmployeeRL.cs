@@ -8,5 +8,6 @@ namespace RepositoryLayer.Interface
     public interface IEmployeeRL
     {
         List<Employee> GetEmployeeDetails();
+        Employee AddEmployee(EmployeeModel employee);
     }
 }
