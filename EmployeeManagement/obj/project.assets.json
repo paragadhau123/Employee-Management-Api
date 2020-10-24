@@ -1314,7 +1314,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "CommonLayer": "1.0.0"
+          "CommonLayer": "1.0.0",
+          "RepositoryLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BusinessLayer.dll": {}
@@ -1326,6 +1327,9 @@
       "CommonLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MongoDB.Bson": "2.11.3"
+        },
         "compile": {
           "bin/placeholder/CommonLayer.dll": {}
         },

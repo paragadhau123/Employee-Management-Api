@@ -29,6 +29,9 @@
             "projectReferences": {
               "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
                 "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
+              },
+              "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj"
               }
             }
           }
@@ -93,6 +96,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
