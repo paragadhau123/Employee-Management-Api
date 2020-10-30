@@ -1,0 +1,9 @@
+D:\parag\EmployeeManagement\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.deps.json
+D:\parag\EmployeeManagement\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.dll
+D:\parag\EmployeeManagement\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csprojAssemblyReference.cache
+D:\parag\EmployeeManagement\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.AssemblyInfoInputs.cache
+D:\parag\EmployeeManagement\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.AssemblyInfo.cs
+D:\parag\EmployeeManagement\RepositoryLayer\bin\Debug\netcoreapp3.1\RepositoryLayer.pdb
+D:\parag\EmployeeManagement\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.dll
+D:\parag\EmployeeManagement\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.pdb
+D:\parag\EmployeeManagement\RepositoryLayer\obj\Debug\netcoreapp3.1\RepositoryLayer.csproj.CoreCompileInputs.cache

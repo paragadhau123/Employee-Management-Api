@@ -4,13 +4,14 @@ using System.Text;
 
 namespace RepositoryLayer
 {
-   public class EmployeeDatabaseSettings : IEmployeeDatabaseSettings
+    public class EmployeeDatabaseSettings : IEmployeeDatabaseSettings
     {
         public string ConnectionString { get; set; }
 
         public string DatabaseName { get; set; }
 
         public string EmployeeCollectionName { get; set; }
+
 
     }
 

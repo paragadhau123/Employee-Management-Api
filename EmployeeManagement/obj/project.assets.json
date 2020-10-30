@@ -1341,7 +1341,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "CommonLayer": "1.0.0",
+          "MongoDB.Bson": "2.11.3",
           "MongoDB.Driver": "2.11.3"
         },
         "compile": {
@@ -4842,7 +4842,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "BusinessLayer >= 1.0.0",
-      "RepositoryLayer >= 1.0.0"
+      "CommonLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4851,11 +4851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\parag\\DotNet\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+      "projectUniqueName": "D:\\parag\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
       "projectName": "EmployeeManagement",
-      "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+      "projectPath": "D:\\parag\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\parag\\DotNet\\EmployeeManagement\\EmployeeManagement\\obj\\",
+      "outputPath": "D:\\parag\\EmployeeManagement\\EmployeeManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4871,11 +4871,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\parag\\DotNet\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj"
+            "D:\\parag\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "D:\\parag\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj"
+            "D:\\parag\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
+              "projectPath": "D:\\parag\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
             }
           }
         }

@@ -7,8 +7,9 @@ using System.Text;
 
 namespace CommonLayer.Model
 {
-    public class EmployeeModel
+    public class EmployeeDetails
     {
+
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
@@ -29,8 +30,8 @@ namespace CommonLayer.Model
         [RegularExpression(@"^([0-9]{2}[ ]+)?[0-9]{10}$", ErrorMessage = "Please enter a valid phone number")]
         public string PhoneNumber { get; set; }
 
-        public string Token { get; set; }
-
+        [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; }
+
     }
 }

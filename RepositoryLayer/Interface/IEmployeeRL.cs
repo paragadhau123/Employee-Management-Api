@@ -1,5 +1,4 @@
-﻿using CommonLayer.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,6 +7,11 @@ namespace RepositoryLayer.Interface
     public interface IEmployeeRL
     {
         List<Employee> GetEmployeeDetails();
-        Employee AddEmployee(EmployeeModel employee);
+
+        bool EditEmployeeDetails(string id, Employee employee);
+
+        bool DeleteEmployeeById(string id);
+
+        Employee AddEmployee(Employee employee);
     }
 }

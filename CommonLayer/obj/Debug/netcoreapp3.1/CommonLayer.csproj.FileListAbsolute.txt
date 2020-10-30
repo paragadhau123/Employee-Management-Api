@@ -1,0 +1,9 @@
+D:\parag\EmployeeManagement\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.deps.json
+D:\parag\EmployeeManagement\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+D:\parag\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csprojAssemblyReference.cache
+D:\parag\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfoInputs.cache
+D:\parag\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfo.cs
+D:\parag\EmployeeManagement\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+D:\parag\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.CoreCompileInputs.cache
+D:\parag\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.dll
+D:\parag\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.pdb

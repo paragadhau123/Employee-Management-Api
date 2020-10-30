@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\parag\\DotNet\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {}
+    "D:\\parag\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {}
   },
   "projects": {
-    "D:\\parag\\DotNet\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\parag\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\parag\\DotNet\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\parag\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "D:\\parag\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\parag\\DotNet\\EmployeeManagement\\BusinessLayer\\obj\\",
+        "outputPath": "D:\\parag\\EmployeeManagement\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
-                "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
+              "D:\\parag\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "D:\\parag\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
               },
-              "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
-                "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj"
+              "D:\\parag\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "D:\\parag\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
+    "D:\\parag\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj",
+        "projectUniqueName": "D:\\parag\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj",
         "projectName": "CommonLayer",
-        "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj",
+        "projectPath": "D:\\parag\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\obj\\",
+        "outputPath": "D:\\parag\\EmployeeManagement\\CommonLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,14 +121,14 @@
         }
       }
     },
-    "D:\\parag\\DotNet\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {
+    "D:\\parag\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\parag\\DotNet\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectUniqueName": "D:\\parag\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
         "projectName": "EmployeeManagement",
-        "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectPath": "D:\\parag\\EmployeeManagement\\EmployeeManagement\\EmployeeManagement.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\parag\\DotNet\\EmployeeManagement\\EmployeeManagement\\obj\\",
+        "outputPath": "D:\\parag\\EmployeeManagement\\EmployeeManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -144,11 +144,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\parag\\DotNet\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\parag\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\parag\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
-                "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj"
+              "D:\\parag\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "D:\\parag\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
               }
             }
           }
@@ -183,14 +183,14 @@
         }
       }
     },
-    "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "D:\\parag\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "D:\\parag\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "D:\\parag\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\parag\\DotNet\\EmployeeManagement\\RepositoryLayer\\obj\\",
+        "outputPath": "D:\\parag\\EmployeeManagement\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -205,11 +205,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
-                "projectPath": "D:\\parag\\DotNet\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -221,6 +217,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.3, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.11.3, )"

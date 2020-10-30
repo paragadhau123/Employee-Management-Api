@@ -10,6 +10,10 @@ namespace BusinessLayer.Interface
     {
         List<Employee> GetEmployeeDetails();
 
-        Employee AddEmployee(EmployeeModel employee);
+        bool DeleteEmployeeById(string id);
+
+        bool EditEmployeeDetails(string id, Employee employee);
+
+        Employee AddEmployee(Employee employee);
     }
 }

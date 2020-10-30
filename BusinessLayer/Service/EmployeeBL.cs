@@ -1,5 +1,4 @@
 ﻿using BusinessLayer.Interface;
-using CommonLayer.Model;
 using RepositoryLayer;
 using RepositoryLayer.Interface;
 using System;
@@ -10,7 +9,6 @@ namespace BusinessLayer.Service
 {
     public class EmployeeBL : IEmployeeBL
     {
-
         private IEmployeeRL repositoryLayer;
 
         public EmployeeBL(IEmployeeRL repositoryLayer)
@@ -18,14 +16,24 @@ namespace BusinessLayer.Service
             this.repositoryLayer = repositoryLayer;
         }
 
-        public Employee AddEmployee(EmployeeModel employee)
+        public Employee AddEmployee(Employee employee)
         {
             return this.repositoryLayer.AddEmployee(employee);
         }
 
-        List<Employee> IEmployeeBL.GetEmployeeDetails()
+        public bool DeleteEmployeeById(string id)
         {
-           return this.repositoryLayer.GetEmployeeDetails();
+            return this.repositoryLayer.DeleteEmployeeById(id);
+        }
+
+        public bool EditEmployeeDetails(string id, Employee employee)
+        {
+            return this.repositoryLayer.EditEmployeeDetails(id,employee);
+        }
+
+        public List<Employee> GetEmployeeDetails()
+        {
+            return this.repositoryLayer.GetEmployeeDetails();
         }
     }
 }

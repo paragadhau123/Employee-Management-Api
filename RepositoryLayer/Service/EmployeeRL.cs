@@ -1,5 +1,4 @@
-﻿using CommonLayer.Model;
-using MongoDB.Driver;
+﻿using MongoDB.Driver;
 using RepositoryLayer.Interface;
 using System;
 using System.Collections.Generic;
@@ -7,7 +6,7 @@ using System.Text;
 
 namespace RepositoryLayer.Service
 {
-    public class EmployeeRL:IEmployeeRL
+    public class EmployeeRL : IEmployeeRL
     {
         private readonly IMongoCollection<Employee> _Employee;
 
@@ -18,7 +17,7 @@ namespace RepositoryLayer.Service
             this._Employee = database.GetCollection<Employee>(settings.EmployeeCollectionName);
         }
 
-        public Employee AddEmployee(EmployeeModel employee)
+        public Employee AddEmployee(Employee employee)
         {
             try
             {
@@ -71,3 +70,10 @@ namespace RepositoryLayer.Service
         }
     }
 }
+/*"id": "5f906aa6d463855c0bd3b5db",
+            "employeeFirstName": "Parag",
+            "employeeLastName": "Adhau",
+            "email": "adhauparag64@gmail.com",
+            "phoneNumber": "9600045258",
+            "token": null,
+            "password": "Adhau123@"*/
